@@ -20,7 +20,8 @@ keyboard = ReplyKeyboardMarkup(
             KeyboardButton(text="📰 Kripto yangiliklari")
         ],
         [
-            KeyboardButton(text="📊 Kripto Kalkulyator")
+            KeyboardButton(text="📊 Kripto Kalkulyator"),
+            KeyboardButton(text="Valyutalar grafigi")
         ],
         [
             KeyboardButton(text="📈 Valyuta o'sish va pasayish tarixi")
