@@ -12,3 +12,29 @@ admin_button = ReplyKeyboardMarkup(
    resize_keyboard=True,
    input_field_placeholder="Menudan birini tanlang"
 )
+
+keyboard = ReplyKeyboardMarkup(
+    keyboard=[
+        [
+            KeyboardButton(text="💎 Kriptovalyutalar kursi"),
+            KeyboardButton(text="📰 Kripto yangiliklari")
+        ],
+        [
+            KeyboardButton(text="📊 Kripto Kalkulyator")
+        ],
+        [
+            KeyboardButton(text="📈 Valyuta o'sish va pasayish tarixi")
+        ]
+        
+    ],
+   resize_keyboard=True,
+)
+
+# Kriptovalyuta menyusi tugmalari
+crypto_menu = ReplyKeyboardMarkup(
+    keyboard=[
+        [KeyboardButton(text="📊 24 Soat"), KeyboardButton(text="📈 7 Kun")],
+        [KeyboardButton(text="🔙 Orqaga")]
+    ],
+    resize_keyboard=True
+)
